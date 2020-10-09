@@ -1,0 +1,15 @@
+version: "2.2"
+
+services:
+  database:
+    container_name: database
+    image: mysql:5.7
+    volumes:
+      - ./mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 123123
+    ports:
+      - "3306:3306"
+      - "13306:3306"
+    expose:
+      - 3306
