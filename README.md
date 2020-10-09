@@ -21,11 +21,11 @@ make init
 ### Create
 
 新規マイグレーションファイルを作成。  
-`camelCasedName`はキャメルケースでないとエラーになる。  
+`CamelCasedName`はキャメルケースでないとエラーになる。  
 また、名称の被りもNG。
 
 ```
-make create NAME=[camelCasedName]
+make create NAME=[CamelCasedName]
 ```
 
 ### Migrate
